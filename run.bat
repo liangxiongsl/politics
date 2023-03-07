@@ -1,0 +1,4 @@
+set port=8094
+start http://localhost:%port% 
+title ÕþÖÎ - %port%
+mkdocs serve -a localhost:%port%

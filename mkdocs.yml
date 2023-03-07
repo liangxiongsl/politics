@@ -1,0 +1,265 @@
+site_name: 政治
+nav: 
+    - 毛概:
+        - 毛概/index.md
+        - 毛概/导论.md
+        - 毛概/毛泽东思想及其历史地位.md
+        - 毛概/新民主主义革命理论.md
+        - 毛概/社会主义改造理论.md
+        - 毛概/社会主义建设道路初步探索的理论成果.md
+        - 毛概/中国特色社会主义理论体系的形成发展.md
+        - 毛概/邓小平理论.md
+        - 毛概/三个代表 重要思想.md
+        - 毛概/科学发展观.md
+    - 马原:
+        - 马原/index.md
+        - 马原/导论.md
+        - 马原/世界的物质性&&发展规律.md
+        - 马原/实践与认识&&发展规律.md
+        - 马原/人类社会&&发展规律.md
+        - 马原/资本主义的本质&&规律.md
+        - 马原/资本主义的发展&&趋势.md
+        - 马原/社会主义的发展&&规律.md
+        - 马原/共产主义从高理想&&最终实现.md
+    - 思修:
+        - 思修/index.md
+        - 思修/绪论.md
+        - 思修/领悟人生阵地，把握人生方向.md
+        - 思修/追求远大理想，坚定崇高信念.md
+        - 思修/继承优良传统，弘扬中国精神.md
+        - 思修/明确价值要求，践行价值准则.md
+        - 思修/遵守道德规范，锤炼道德品格.md
+        - 思修/学习法治思想，提升法治素养.md
+    - 近代史:
+        - 近代史/index.md
+        - 近代史/导论.md
+        - 近代史/进入近代后中华民族的磨难与抗争.md
+        - 近代史/不同社会力量对国家出路的早期探索.md
+        - 近代史/辛亥革命与君主专制制度的终结.md
+        - 近代史/中国共产党成立和中国革命新局面.md
+        - 近代史/中国革命的新道路.md
+        - 近代史/中华民族的抗日战争.md
+        - 近代史/为建新中国而奋斗.md
+        - 近代史/中华人民共和国的成立与中国社会主义建设道路的探索.md
+        - 近代史/中国特色社会主义进入新时代.md
+    - 形势与政策:
+        - 形势与政策/index.md
+    
+extra_css:
+    - res/extra.css
+extra_javascript:
+    - res/extra.js
+
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2022 - 2023 travis
+
+# repo_url: @
+# repo_name: @
+
+theme:
+    name: material
+    # custom_dir: overrides
+
+    palette:
+        - media: "(prefers-color-scheme)"
+          primary: red
+          accent: red
+          toggle:
+            icon: material/brightness-auto
+            name: 切换到暗模式
+        - media: "(prefers-color-scheme: light)"
+          primary: green
+          accent: green
+          scheme: default 
+          toggle:
+            icon: material/brightness-7
+            name: 切换到默认模式
+        - media: "(prefers-color-scheme: dark)"
+          primary: blue
+          accent: blue
+          scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: 切换到亮模式
+
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+    language: zh
+    direction: ltr
+
+    logo: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    favicon: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    icon:
+        logo: octicons/heart-fill-24
+
+        repo: fontawesome/brands/github
+        edit: material/pencil
+        view: material/eye
+
+
+        admonition:
+            note: fontawesome/solid/note-sticky
+            abstract: fontawesome/solid/book
+            info: fontawesome/solid/circle-info
+            tip: fontawesome/solid/bullhorn
+            success: fontawesome/solid/check
+            question: fontawesome/solid/circle-question
+            warning: fontawesome/solid/triangle-exclamation
+            failure: fontawesome/solid/bomb
+            danger: fontawesome/solid/skull
+            bug: fontawesome/solid/robot
+            example: fontawesome/solid/flask
+            quote: fontawesome/solid/quote-left
+
+
+
+
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        # - navigation.expand
+        - navigation.prune
+        - navigation.indexes
+        - toc.follow
+        # - toc.integrate
+        - navigation.top
+
+        - search.suggest
+        - search.highlight
+        - search.share
+
+        - header.autohide
+
+        - navigation.footer
+
+        - content.action.edit
+        - content.action.view
+
+        - content.code.copy
+        - content.code.annotate
+
+        - content.tooltips
+
+
+extra:
+    alternate:
+        - name: English
+          link: /en/ 
+          lang: en
+        - name: 中文
+          link: /zh/
+          lang: zh
+
+    homepage: /
+
+    #consent:
+    #    title: cookie
+    #    description:    >-
+    #        sdd
+    #    cookies:
+    #        analytics:
+    #            github
+
+
+    social:
+        - icon: fontawesome/brands/github
+          link: 链接url地址
+          name: 标识名
+        - icon: fontawesome/brands/docker
+          link: 链接url地址
+          name: 标识名
+    generator: false
+
+
+plugins:
+    - search:
+        lang:
+            - en
+            - ja
+        # '[\s\-,:!=\[\]]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+        separator: '[\s\-\.]+'
+        jieba_dict: res/dict.txt
+        jieba_dict_user: res/user_dict.txt
+    - search:
+        lang:
+            - en
+        jieba_dict: dict/dict.txt
+        separator: '[\s\-\.]+'
+    # - typeset
+
+    - glightbox
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
+
+    - attr_list
+
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    #- pymdownx.tabbed:
+    #    slugify: !!python/object/apply:pymdownx.slugs.slugify
+    #        kwds:
+    #            case: lower
+
+    # - content.tabs.link
+
+
+    - tables
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+    - footnotes
+
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+    - attr_list
+    - md_in_html
+
+    - def_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
+
+    - pymdownx.arithmatex:
+        generic: true
+
+    - abbr
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.snippets:
+        auto_append:
+            - includes/abbr.md
+
