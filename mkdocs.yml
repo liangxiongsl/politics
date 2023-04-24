@@ -1,16 +1,20 @@
-site_name: 政治
+site_name: 文科
 nav: 
+    - English:
+        - English/index.md
+        - English/1.verb.md
+        - English/reading.md
     - 毛概:
         - 毛概/index.md
-        - 毛概/导论.md
-        - 毛概/毛泽东思想及其历史地位.md
-        - 毛概/新民主主义革命理论.md
-        - 毛概/社会主义改造理论.md
-        - 毛概/社会主义建设道路初步探索的理论成果.md
-        - 毛概/中国特色社会主义理论体系的形成发展.md
-        - 毛概/邓小平理论.md
-        - 毛概/三个代表 重要思想.md
-        - 毛概/科学发展观.md
+        - 毛概/0.导论.md
+        - 毛概/1.毛泽东思想及其历史地位.md
+        - 毛概/2.新民主主义革命理论.md
+        - 毛概/3.社会主义改造理论.md
+        - 毛概/4.社会主义建设道路初步探索的理论成果.md
+        - 毛概/5.中国特色社会主义理论体系的形成发展.md
+        - 毛概/6.邓小平理论.md
+        - 毛概/7.三个代表 重要思想.md
+        - 毛概/8.科学发展观.md
     - 马原:
         - 马原/index.md
         - 马原/导论.md
@@ -93,8 +97,8 @@ theme:
     language: zh
     direction: ltr
 
-    logo: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
-    favicon: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    logo: https://static.javatpoint.com/images/homeicon/verbal-ability.png
+    favicon: https://static.javatpoint.com/images/homeicon/verbal-ability.png
     icon:
         logo: octicons/heart-fill-24
 
