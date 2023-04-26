@@ -2,7 +2,8 @@ site_name: 文科
 nav: 
     - English:
         - English/index.md
-        - English/1.verb.md
+        - English/wk.md
+        - English/verb.md
         - English/reading.md
     - 毛概:
         - 毛概/index.md
@@ -156,12 +157,18 @@ theme:
 
 extra:
     alternate:
-        - name: English
-          link: /en/ 
-          lang: en
-        - name: 中文
-          link: /zh/
-          lang: zh
+        - name: 常用英语单词分类记忆
+          link: https://www.docin.com/p-479538344.html?docfrom=rrela
+        - name: 日常英语单词分类记忆表
+          link: https://www.docin.com/p-347344291.html?docfrom=rrela
+        - name: 考研英语单词
+          link: https://www.docin.com/p-459820532.html
+        - name: 英语单词分类记忆表
+          link: https://www.docin.com/p-940121829.html
+        - name: 考研英语词汇分类汇总
+          link: https://www.51test.net/show/9728693.html
+        - name: 单词分类——常用单词表汇总
+          link: https://zhuanlan.zhihu.com/p/553562672
 
     homepage: /
 
